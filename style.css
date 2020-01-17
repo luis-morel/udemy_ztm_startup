@@ -1,0 +1,41 @@
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: url(Blue_Tech_1920x1080.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: #E2DBDB;
+    font-size: 3em;
+}
+
+.buffer {
+    height: 10rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: white;
+    border-color: tomato;
+    color: tomato;
+}
+
+.btn-primary {
+    background-color: tomato;
+    border-color: tomato;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
